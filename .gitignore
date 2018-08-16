@@ -7,3 +7,11 @@
 .#*.scm
 
 doc/site
+*.so
+*.boot
+*.wpo
+
+demo/events
+demo/renderer
+demo/simple
+demo/surfaces

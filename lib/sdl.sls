@@ -156,10 +156,12 @@
    sdl-create-renderer
    sdl-create-texture-from-surface
    sdl-render-clear
-   ;sdl-render-copy
+   sdl-render-copy
    sdl-render-present
    sdl-destroy-texture
    sdl-destroy-renderer
+
+   sdl-c-rect
 
    sdl-load-bmp
    sdl-map-rgb

@@ -188,6 +188,9 @@
 (define sdl-render-clear
   (foreign-procedure "SDL_RenderClear" (void*) int))
 
+(define sdl-render-copy
+  (foreign-procedure "SDL_RenderCopy"
+    (void* void* (* sdl-c-rect) (* sdl-c-rect)) int))
 
 (define sdl-render-present
   (foreign-procedure "SDL_RenderPresent" (void*) void))
